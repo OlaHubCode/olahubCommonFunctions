@@ -18,7 +18,7 @@
         {
             "type": "package",
             "package": {
-                "name": "olahubcode/olahubcommonfunctions",
+                "name": "olahubcommonfunctions",
                 "version": "dev-master",
                 "source": {
                     "url": "https://github.com/OlaHubCode/olahubCommonFunctions.git",
