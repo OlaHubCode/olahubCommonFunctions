@@ -1,5 +1,5 @@
 {
-    "name": "olahub/common-functions",
+    "name": "OlaHubCode/olahubCommonFunctions",
     "description": "The Laravel Lumen Framework.",
     "keywords": ["framework", "laravel", "lumen"],
     "license": "MIT",
@@ -18,10 +18,10 @@
         {
             "type": "package",
             "package": {
-                "name": "olahub/common-functions",
+                "name": "OlaHubCode/olahubCommonFunctions",
                 "version": "dev-master",
                 "source": {
-                    "url": "https://github.com/mohamedElabsy/besoooCommonFunctions.git",
+                    "url": "https://github.com/OlaHubCode/olahubCommonFunctions.git",
                     "type": "git",
                     "reference": "origin/master"
                 }
