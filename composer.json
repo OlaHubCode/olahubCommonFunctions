@@ -1,0 +1,52 @@
+{
+    "name": "olahub/common-functions",
+    "description": "The Laravel Lumen Framework.",
+    "keywords": ["framework", "laravel", "lumen"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.0",
+        "laravel/lumen-framework": "5.5.*",
+        "vlucas/phpdotenv": "~2.2",
+        "league/fractal": "^0.17.0",
+        "barryvdh/laravel-cors": "^0.11.0",
+        "illuminate/mail": "^5.5",
+        "guzzlehttp/guzzle": "^6.3",
+        "stichoza/google-translate-php": "~3.2"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "olahub/common-functions",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/mohamedElabsy/besoooCommonFunctions.git",
+                    "type": "git",
+                    "reference": "origin/master"
+                }
+            }
+        }
+    ],
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "phpunit/phpunit": "~6.0",
+        "mockery/mockery": "~0.9"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ]
+    },
+    "autoload-dev": {
+        
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"copy('.env.example', '.env');\""
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "optimize-autoloader": true
+}
