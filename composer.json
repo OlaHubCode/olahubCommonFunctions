@@ -5,12 +5,12 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": ">=7.0",
-        "laravel/lumen-framework": "5.5.*",
+        "php": ">=7.4",
+        "laravel/lumen-framework": "^8.0",
         "vlucas/phpdotenv": "~2.2",
         "league/fractal": "^0.17.0",
-        "barryvdh/laravel-cors": "^0.11.0",
-        "illuminate/mail": "^5.5",
+        "barryvdh/laravel-cors": "^2.0.0",
+        "illuminate/mail": "^8.0",
         "guzzlehttp/guzzle": "^6.3",
         "stichoza/google-translate-php": "~3.2"
     },
